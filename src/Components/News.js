@@ -30,7 +30,7 @@ export class News extends Component {
       this.props.country
     }&category=${
       this.props.category
-    }&apikey=847782958349471dbc4b59a8a53e4e97&page=${
+    }&apikey="Enter your api key"&page=${
       this.state.page - 1
     }&pageSize=${this.props.pagesize}`;
     this.setState({ loading: true });
